@@ -103,6 +103,7 @@ export default function Dashboard() {
         pitch,
       });
       setAudioUrl(res.data.url);
+      console.log('audio url: ', res.data.url);
        toast.success("Speech file generated successfully!");
 
          // Real-time update in history section
